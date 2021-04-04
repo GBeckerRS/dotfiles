@@ -1,6 +1,5 @@
 "*****************************************************************************
 " VIM configuration file
-" Changed: 2021/04/04
 "*****************************************************************************
 " Change tab character to spaces
 set expandtab
@@ -14,10 +13,6 @@ set relativenumber
 " Turn wrap lines off
 set nowrap
 "*****************************************************************************
-" Mapping keys
-nnoremap ; :
-let mapleader=','
-"*****************************************************************************
 " Turn the column boundary with color on
 set colorcolumn=80
 "*****************************************************************************
@@ -25,10 +20,16 @@ set colorcolumn=80
 " Configure vim-plug (https://github.com/junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'https://github.com/jiangmiao/auto-pairs.git'
+Plug 'https://github.com/tpope/vim-fugitive.git'
 call plug#end()
 "*****************************************************************************
 " Turn preview window off
 set completeopt-=preview
 " Turn YCM's diagnostic off
 let g:ycm_show_diagnostics_ui = 0
+"*****************************************************************************
+" Mapping keys
+nnoremap ; :
+let mapleader=','
 "*****************************************************************************
