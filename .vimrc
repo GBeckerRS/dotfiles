@@ -27,15 +27,20 @@ call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'https://github.com/morhetz/gruvbox.git'
 call plug#end()
 "*****************************************************************************
-" Turn preview window off
+" Turn YCM preview window off
 set completeopt-=preview
 " Turn YCM's diagnostic off
 let g:ycm_show_diagnostics_ui = 0
+" Gruvbox's color configurations
+colorscheme gruvbox
+set background=dark
 "*****************************************************************************
 " Mapping keys
 nnoremap ; :
+" Configure mapleader key
 let mapleader=' '
 " Page up and Page down
 nnoremap <leader>d <c-d>
