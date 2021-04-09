@@ -28,6 +28,8 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/morhetz/gruvbox.git'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 "*****************************************************************************
 " Turn YCM preview window off
