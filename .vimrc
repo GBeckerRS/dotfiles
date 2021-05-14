@@ -39,6 +39,8 @@ let g:ycm_show_diagnostics_ui = 0
 " Gruvbox's color configurations
 colorscheme gruvbox
 set background=dark
+" Set up Airline-theme
+let g:airline_theme='badwolf'
 "*****************************************************************************
 " Mapping keys
 nnoremap ; :
