@@ -18,8 +18,6 @@ set nohlsearch
 set noerrorbells
 " Turn incremental search on
 set incsearch
-" Turn transparency
-hi Normal guibg=NONE ctermbg=NONE
 "*****************************************************************************
 " Turn 'vim-plug' on
 " Configure vim-plug (https://github.com/junegunn/vim-plug)
@@ -60,4 +58,7 @@ nnoremap <leader>gl :Git log<CR>
 nnoremap <leader>gd :Gdiffsplit!<CR>
 nnoremap <leader>q :diffget //2<CR>
 nnoremap <leader>w :diffget //3<CR>
+"*****************************************************************************
+" Turn transparency on
+hi Normal guibg=NONE ctermbg=NONE
 "*****************************************************************************
