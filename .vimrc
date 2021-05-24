@@ -18,8 +18,6 @@ set nohlsearch
 set noerrorbells
 " Turn incremental search on
 set incsearch
-" Turn scrollof on at 8 lines
-set scrolloff=8
 "*****************************************************************************
 " Turn 'vim-plug' on
 " Configure vim-plug (https://github.com/junegunn/vim-plug)
@@ -47,8 +45,8 @@ nnoremap ; :
 " Configure mapleader key
 let mapleader=' '
 " Page up and Page down
-nnoremap <leader>d <c-d>
-nnoremap <leader>u <c-u>
+nnoremap <leader>d <c-b>
+nnoremap <leader>f <c-f>
 " Vim panel navigation
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
