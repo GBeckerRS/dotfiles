@@ -55,6 +55,7 @@ nnoremap <leader>l :wincmd l<CR>
 " vim-fugitive key mapping
 nnoremap <leader>g :Git<CR>
 nnoremap <leader>gl :Git log<CR>
+nnoremap <leader>gb :Git branch<CR>
 nnoremap <leader>gd :Gdiffsplit!<CR>
 nnoremap <leader>q :diffget //2<CR>
 nnoremap <leader>w :diffget //3<CR>
