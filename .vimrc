@@ -12,12 +12,14 @@ set relativenumber
 set nowrap
 " Turn the column boundary with color on
 set colorcolumn=80
-" Turn highligth search off
-set nohlsearch
+" Turn highligth search on
+set hlsearch
 " Turn annoying error bells off
 set noerrorbells
 " Turn incremental search on
 set incsearch
+" Turn scrolloff on
+set scrolloff=10
 "*****************************************************************************
 " Turn 'vim-plug' on
 " Configure vim-plug (https://github.com/junegunn/vim-plug)
@@ -44,9 +46,11 @@ let g:airline_theme='badwolf'
 nnoremap ; :
 " Configure mapleader key
 let mapleader=' '
+" Open miscalenious file
+nnoremap <leader>m :edit ~/.misc<CR>
 " Page up and Page down
-nnoremap <leader>d <c-b>
-nnoremap <leader>f <c-f>
+nnoremap <leader>d <c-d>
+nnoremap <leader>f <c-u>
 " Vim panel navigation
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
