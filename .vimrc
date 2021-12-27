@@ -32,6 +32,7 @@ Plug 'https://github.com/morhetz/gruvbox.git'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+Plug 'https://github.com/plasticboy/vim-markdown.git'
 call plug#end()
 "*****************************************************************************
 " Turn YCM preview window off

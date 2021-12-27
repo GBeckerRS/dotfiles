@@ -64,3 +64,7 @@ This is some of dotfiles in use in my dev env.
 
     Fuzzy finder to find files
 
+- Vim-markdown [https://github.com/plasticboy/vim-markdown]
+
+    Add syntax highlights and key binds to edit mk files
+
