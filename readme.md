@@ -56,3 +56,7 @@ This is some of dotfiles in use in my dev env.
 
     Single CLI for multiple languages
 
+- Vim-commentary [https://github.com/tpope/vim-commentary]
+    
+    Comment and uncomment muitiple or single lines
+
