@@ -31,6 +31,7 @@ Plug 'https://github.com/tpope/vim-commentary.git'
 Plug 'https://github.com/morhetz/gruvbox.git'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 call plug#end()
 "*****************************************************************************
 " Turn YCM preview window off
@@ -64,6 +65,8 @@ nnoremap <leader>gb :Git branch<CR>
 nnoremap <leader>gd :Gdiffsplit!<CR>
 nnoremap <leader>q :diffget //2<CR>
 nnoremap <leader>w :diffget //3<CR>
+" FZF key mapping
+nnoremap <silent> <leader>t :FZF<CR>
 "*****************************************************************************
 " Turn transparency on
 hi Normal guibg=NONE ctermbg=NONE

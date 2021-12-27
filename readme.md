@@ -60,3 +60,7 @@ This is some of dotfiles in use in my dev env.
     
     Comment and uncomment muitiple or single lines
 
+- Fzf [https://github.com/junegunn/fzf]
+
+    Fuzzy finder to find files
+
